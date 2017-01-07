@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Local Weather App for FCC</title>
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+  <div class="container">
+      <h1>My Local Weather</h1>
+      <h3 id="location"></h3>
+      <div class="weather-box row">
+          <img src="#" id="icon" alt="weather icon">
+          <p id="temp"></p>
+          <p id="description"></p>
+      </div>
+      <div class="temp-box row">
+        <div class="col-xs-12" id="tempSwap">
+          <button class="btn btn-primary">Change F<sup>o</sup>/C<sup>o</sup></button>
+        </div>
+      </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
