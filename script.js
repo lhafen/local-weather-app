@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 
 
-var api = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=8433fcf75fc420a058abf8942627633e";
+var api = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=8433fcf75fc420a058abf8942627633e";
 
 $.getJSON(api, function(data){
     var weatherType = data.weather[0].description;
