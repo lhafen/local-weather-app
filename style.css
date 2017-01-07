@@ -1,0 +1,52 @@
+
+
+body {
+    /*background-image:url("https://upload.wikimedia.org/wikipedia/commons/8/86/Cumulus_humilis_clouds.jpg");*/
+    background-size:100%;
+    text-align:center;
+
+}
+
+div {
+    margin:0 auto;
+    max-width:600px;
+}
+
+h1 {
+    font-family:'Corben', cursive;
+    font-size:55px;
+    color:white;
+    margin-top: 130px;
+    letter-spacing: 3px;
+    text-shadow:1px 1px 1px black;
+}
+
+h3 {
+    font-family:'Corben', cursive;
+    font-size:20px;
+    color:black;
+    padding:15px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family:'Corben', cursive;
+    font-size:15px;
+    color:black;
+    padding:10px;
+}
+
+.weather-box {
+    background-color: rgba(255,255,255,.45);
+    margin:30px;
+    border-radius:15px;
+    padding:40px;
+    max-width:720px;
+    text-align: center;
+
+
+    }
+
+#temp {
+    font-size:50px;
+}
